@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\meltm\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\meltm\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\meltm\OneDrive\Documentos\MISIONTIC\Programacion\Desarrollo de software-CICLO3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
