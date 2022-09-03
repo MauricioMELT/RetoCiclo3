@@ -1,42 +1,33 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListAvionesModel
 @{
 }
  
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">marca</th>
-      <th scope="col">modelo</th>
-      <th scope="col">asientos</th>
-      <th scope="col">baños</th>
-      <th scope="col">peso</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Airbus</td>
-      <td>Airbus A220</td>
-      <td>140</td>
-      <td>3</td>
-      <td>50.349</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Airbus</td>
-      <td>Airbus A321</td>
-      <td>240</td>
-      <td>4</td>
-      <td>49.500</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Embraer</td>
-      <td>Embraer 190</td>
-      <td>100</td>
-      <td>2</td>
-      <td>45.000</td>
-    </tr>
-  </tbody>
+<h1>Listado de Aviones</h1>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th scope="col">marca</th>
+        <th scope="col">modelo</th>
+        <th scope="col">asientos</th>
+        <th scope="col">baños</th>
+        <th scope="col">peso</th>
+        <th>Acciones</th>
+    </thead>
+    @foreach (var aviones in Model.Aviones)
+    {
+        <tr>
+            <td>@aviones.id</td>
+            <td>@aviones.marca</td>
+            <td>@aviones.modelo</td>
+            <td>@aviones.asientos</td>
+            <td>@aviones.baños</td>
+            <td>@aviones.peso</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-avionesId="@aviones.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@aviones.id">Editar</a>
+              <a class="btn btn-danger" href="">Eliminar</a>
+              </td>
+        </tr>
+    }
 </table>
