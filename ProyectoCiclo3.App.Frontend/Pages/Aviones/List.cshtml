@@ -14,18 +14,18 @@
         <th scope="col">peso</th>
         <th>Acciones</th>
     </thead>
-    @foreach (var aviones in Model.Aviones)
+    @foreach (var avion in Model.Aviones)
     {
         <tr>
-            <td>@aviones.id</td>
-            <td>@aviones.marca</td>
-            <td>@aviones.modelo</td>
-            <td>@aviones.asientos</td>
-            <td>@aviones.baños</td>
-            <td>@aviones.peso</td>
+            <td>@avion.id</td>
+            <td>@avion.marca</td>
+            <td>@avion.modelo</td>
+            <td>@avion.asientos</td>
+            <td>@avion.baños</td>
+            <td>@avion.peso</td>
             <td>
-              <a class="btn btn-info" asp-page="./Details" asp-route-avionId="@aviones.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" asp-page="./Edit" asp-route-avionId="@aviones.id">Editar</a>
+              <a class="btn btn-info" asp-page="./Details" asp-route-avionId="@avion.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-avionId="@avion.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>
