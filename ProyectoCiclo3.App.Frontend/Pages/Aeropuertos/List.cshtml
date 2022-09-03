@@ -14,18 +14,18 @@
         <th>Coordenada Y</th>
         <th>Acciones</th>
     </thead>
-    @foreach (var aeropuertos in Model.Aeropuertos)
+    @foreach (var aeropuerto in Model.Aeropuertos)
     {
         <tr>
-            <td>@aeropuertos.id</td>
-            <td>@aeropuertos.nombre</td>
-            <td>@aeropuertos.ciudad</td>
-            <td>@aeropuertos.pais</td>
-            <td>@aeropuertos.coord_x</td>
-            <td>@aeropuertos.coord_y</td>
+            <td>@aeropuerto.id</td>
+            <td>@aeropuerto.nombre</td>
+            <td>@aeropuerto.ciudad</td>
+            <td>@aeropuerto.pais</td>
+            <td>@aeropuerto.coord_x</td>
+            <td>@aeropuerto.coord_y</td>
             <td>
-              <a class="btn btn-info" asp-page="./Details" asp-route-aeropuertosId="@aeropuertos.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@aeropuertos.id">Editar</a>
+              <a class="btn btn-info" asp-page="./Details" asp-route-aeropuertoId="@aeropuerto.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-aeropuertoId="@aeropuerto.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>
