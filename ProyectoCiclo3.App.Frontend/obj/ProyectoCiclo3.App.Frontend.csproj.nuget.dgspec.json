@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
+    "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\ingca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\meltm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ingca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\meltm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
+    "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
         "projectName": "ProyectoCiclo3.App.Frontend",
-        "projectPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\ingca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\meltm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ingca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\meltm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+              "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
               }
             }
           }
@@ -114,17 +114,17 @@
         }
       }
     },
-    "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+    "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
         "projectName": "ProyectoCiclo3.App.Persistencia",
-        "projectPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\ingca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\meltm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ingca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\meltm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -135,8 +135,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ingca\\OneDrive\\Escritorio\\MINtIC\\ciclo 3\\repositorio Lazaro\\RetoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+              "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\meltm\\OneDrive\\Documentos\\MISIONTIC\\Programacion\\Desarrollo de software-CICLO3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
               }
             }
           }
