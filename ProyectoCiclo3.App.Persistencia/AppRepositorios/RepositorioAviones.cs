@@ -52,5 +52,12 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         return avion;
         }
 
+        public Aviones Delete(int id)
+        {
+        var avion= aviones.SingleOrDefault(b => b.id == id);
+        aviones.Remove(avion);
+        return avion;
+        }
+
     }
 }
