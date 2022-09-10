@@ -12,17 +12,28 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class ListAeropuertosModel : PageModel
     {
        
-        private readonly RepositorioAeropuertos RepositorioAeropuertos;
-        public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
+    private readonly RepositorioAeropuertos repositorioAeropuertos;
+    public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
+    [BindProperty]
+    public Aeropuertos Aeropuerto {get;set;}
  
-    public ListAeropuertosModel(RepositorioAeropuertos RepositorioAeropuertos)
+    public ListAeropuertosModel(RepositorioAeropuertos repositorioAeropuertos)
     {
-        this.RepositorioAeropuertos=RepositorioAeropuertos;
+        this.repositorioAeropuertos=repositorioAeropuertos;
      }
  
     public void OnGet()
+    
     {
-        Aeropuertos=RepositorioAeropuertos.GetAll();
+        Aeropuertos=repositorioAeropuertos.GetAll();
+    }
+    public IActionResult OnPost()
+    {
+        if(Aeropuerto.id>0)
+        {
+            repositorioAeropuertos.Delete(Aeropuerto.id);
+        }
+        return RedirectToPage("./List");
     }
     }
 }
