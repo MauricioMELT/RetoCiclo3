@@ -5,23 +5,21 @@
 
 <div class="text-center">
     <form method="POST">
-        <label for="id" class="form-label">id:</label>
-        <input type="number" class="form-control" required placeholder="id" asp-for="Avion.id">
-       
+    
         <label for="marca" class="form-label">marca:</label>
-        <input type="text" class="form-control"  required placeholder="marca" asp-for="Avion.marca">
+        <input type="text" class="form-control"  required placeholder="marca" id="marca" name="marca" asp-for="Avion.marca">
         
         <label for="modelo" class="form-label">modelo:</label>
-        <input type="text" class="form-control"  required placeholder="modelo" asp-for="Avion.modelo">
+        <input type="text" class="form-control"  required placeholder="modelo" id="modelo" name="modelo" asp-for="Avion.modelo">
 
         <label for="asientos" class="form-label">asientos:</label>
-        <input type="number" class="form-control"  required placeholder="asientos" asp-for="Avion.asientos">
+        <input type="number" class="form-control"  required placeholder="asientos" id="asientos" name="asientos" asp-for="Avion.asientos">
 
         <label for="banos" class="form-label">baños:</label>
-        <input type="number" class="form-control"  required placeholder="banos" asp-for="Avion.banos">
+        <input type="number" class="form-control"  required placeholder="banos" id="banos" name="banos" asp-for="Avion.banos">
 
         <label for="peso" class="form-label">peso:</label>
-        <input type="number" class="form-control"  required placeholder="peso" asp-for="Avion.peso">
+        <input type="number" class="form-control"  required placeholder="peso" id="peso" name="peso" asp-for="Avion.peso">
         <hr>
         <button type="submit" class="btn btn-success">Enviar</button>
     </form>
