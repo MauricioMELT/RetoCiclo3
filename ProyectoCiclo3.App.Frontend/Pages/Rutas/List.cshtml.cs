@@ -12,17 +12,29 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class ListRutasModel : PageModel
     {
        
-        private readonly RepositorioRutas RepositorioRutas;
-        public IEnumerable<Rutas> Rutas {get;set;}
- 
-    public ListRutasModel(RepositorioRutas RepositorioRutas)
+    private readonly RepositorioRutas repositorioRutas;
+    public IEnumerable<Rutas> Rutas {get;set;}
+    [BindProperty]
+    public Rutas Ruta {get;set;}
+
+    public ListRutasModel(RepositorioRutas repositorioRutas)
     {
-        this.RepositorioRutas=RepositorioRutas;
+        this.repositorioRutas=repositorioRutas;
      }
  
     public void OnGet()
     {
-        Rutas=RepositorioRutas.GetAll();
+        Rutas=repositorioRutas.GetAll();
     }
+
+    public IActionResult OnPost()
+    {
+        if(Ruta.id>0)
+        {
+            repositorioRutas.Delete(Ruta.id);
+        }
+        return RedirectToPage("./List");
+    }
+
     }
 }
