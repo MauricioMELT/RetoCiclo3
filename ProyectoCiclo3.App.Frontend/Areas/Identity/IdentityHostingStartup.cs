@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ProyectoCiclo3.App.Frontend.Areas.Identity.Data;
-using Microsoft.AspNetCore.Authentication;
-
 
 [assembly: HostingStartup(typeof(ProyectoCiclo3.App.Frontend.Areas.Identity.IdentityHostingStartup))]
 namespace ProyectoCiclo3.App.Frontend.Areas.Identity
@@ -16,9 +14,7 @@ namespace ProyectoCiclo3.App.Frontend.Areas.Identity
     {
         public void Configure(IWebHostBuilder builder)
         {
-    
             builder.ConfigureServices((context, services) => {
-                services.AddControllersWithViews();
                 services.AddDbContext<IdentityDataContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("IdentityDataContextConnection")));

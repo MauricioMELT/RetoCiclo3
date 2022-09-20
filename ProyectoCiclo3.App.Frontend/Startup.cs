@@ -30,6 +30,7 @@ namespace ProyectoCiclo3.App.Frontend
             services.AddSingleton<RepositorioAeropuertos, RepositorioAeropuertos>();
             services.AddSingleton<RepositorioAviones, RepositorioAviones>();
             services.AddSingleton<RepositorioRutas, RepositorioRutas>();
+            services.AddControllersWithViews();
 
         }
 
@@ -55,12 +56,17 @@ namespace ProyectoCiclo3.App.Frontend
             app.UseAuthentication();
 
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
+
+            
+        
         }
     }
 }
