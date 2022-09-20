@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ProyectoCiclo3.App.Persistencia.AppRepositorios;
+using Microsoft.AspNetCore.Authentication;
 
 namespace ProyectoCiclo3.App.Frontend
 {
@@ -28,6 +29,7 @@ namespace ProyectoCiclo3.App.Frontend
             services.AddSingleton<RepositorioAeropuertos, RepositorioAeropuertos>();
             services.AddSingleton<RepositorioAviones, RepositorioAviones>();
             services.AddSingleton<RepositorioRutas, RepositorioRutas>();
+            services.AddControllersWithViews();
 
         }
 
@@ -50,12 +52,17 @@ namespace ProyectoCiclo3.App.Frontend
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
+
+            
+        
         }
     }
 }
