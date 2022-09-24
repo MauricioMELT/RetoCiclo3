@@ -41,15 +41,18 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return addAvion.Entity;
         }
  
-        public Aviones Delete(int id)
+        public void Delete(int id)
         {
+            try {
             var avion = _appContext.Aviones.Find(id);
             if (avion != null){
                 _appContext.Aviones.Remove(avion);
                 //Guardar en base de datos
                 _appContext.SaveChanges();
             }
-            return null;
+            }catch (Exception e){
+                
+            }
         }
     }
 }
